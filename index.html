@@ -8,23 +8,23 @@
     <link rel="icon" type="image" href="image/ESD_LOGO_Rectangular.png">
 </head>
 <body>
-    <div>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="images/logo.jpeg" alt="ESD">
-        <h1 style="color: white;">Employee Skill Devlopment</h1>
-            </div>
-        <div>
-            <ul>
-                <a href="#"><li>HOME</li></a>
-                <a href="#"><li>CONTACT</li></a>
-                <a href="#"><li>PROGRAM</li></a>
-                <a href="#"><li>ABOUT US</li></a>
-            </ul>
-        </div>
+    <header>
         
-    </nav>
-    </div>
+                
+                  <nav id="navbar">
+                 
+                    <div class="topnav" id="myTopnav">
+                        <img src="img/ESD_LOGO_Rectangular.png" alt="">
+                      <a href="#home">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#resume">Resume</a>
+                      <a href="#contact">Contact</a>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </div>
+                  </nav>
+              </header>
     <div class="body">
         <br>
         <br>
@@ -61,5 +61,14 @@
         <p style="color: aliceblue; font-size:20px;">&copy; Employee Skill Devlopment program</p>
         <p style="color: aliceblue; font-size:20px;">All rights reserved | Terms and Use | Privacy Policy</p> 
     </div>
+      <script>
+                function myFunction() {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "topnav";
+                  }
+                }</script>
 </body>
 </html>
