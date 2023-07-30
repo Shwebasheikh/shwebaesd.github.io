@@ -30,7 +30,7 @@ body{
     background: #ffd0d08a;
   }
   .topnav img{
-    width: 6vw;
+    width: 6rem;
     padding: 1rem;
   }
   .topnav a {
@@ -70,7 +70,7 @@ body{
       display: block;
     }
     .topnav img{
-        width: 10vw;
+        width: 4rem;
         padding: 1rem;
       }
     
