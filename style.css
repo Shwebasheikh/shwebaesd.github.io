@@ -16,12 +16,7 @@ body{
     /* background-image: linear-gradient(#09a337,#6bd10c); */
     opacity: 100%;
 }
-.navbar>h1{
-    margin-left :1em; 
-     font-size:1em;
 
-
-}
 
 .topnav {
     overflow: hidden;
@@ -32,7 +27,7 @@ body{
     right: 0;
     z-index: 1000;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    background: #ff9696;
+    background: #ffd0d08a;
   }
   .topnav img{
     width: 6vw;
